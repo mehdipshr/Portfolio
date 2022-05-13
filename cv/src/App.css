@@ -1,0 +1,296 @@
+.App{
+  margin: auto;
+  width: 100%;
+}
+body{
+  background-color: rgb(250, 236, 219);
+  
+  }
+
+#icons-div{
+  margin-top: 4.5rem;
+  text-align: center;
+  
+
+  }
+.ico-git-in{
+  color: rgb(14, 0, 0);
+  font-size: larger;
+  }
+.icons-g-f{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(250, 217, 32, 0.966);
+  
+  
+}
+#header{
+  
+  background: linear-gradient(to right, #f86402e7, #00a2ffdc);
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+}
+
+#name-div-head{
+
+  text-align: center;
+}
+.name{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#down-btn{
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(250, 217, 32, 0.966);
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  font-size: small;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#profile-img{
+  width: 13rem;
+  height: 13rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
+#About{
+  display: flex;
+  justify-content:space-around ;
+  margin: auto;
+  margin-top: 5rem;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  
+}
+
+#about-me p{
+  text-align: left;
+}
+#about-me{
+  text-align: center;
+  width: 45%;
+  margin-top: 30px;
+}
+
+#information-div{
+  width: 35%;
+  margin-top: 30px;
+  text-align: center;
+  
+  
+}
+
+#info-table{
+  width: 90%;
+  height: 8%;
+}
+.obj-info{
+  font-weight: bold;
+  padding-right: 60px;
+}
+tr,td{
+  text-align: left;
+}
+
+
+.about-titles{
+  font-weight: bold;
+}
+
+
+.nav-link{
+  color: rgb(0, 2, 3);
+  font-size: 20px;
+  margin: .5rem;
+  font-weight: bold;
+}
+.nav-link:hover{
+  color: rgb(139, 101, 101);
+}
+
+#fix-nav{
+  position: fixed;
+  background-color: rgba(255, 230, 1, 0.507);
+  width: 100%;
+  height: 3.5rem;
+}
+.progress-bar{
+  width: 80%;
+}
+
+
+
+#Skills-progress{
+  margin: auto;
+  width: 80%;
+  margin-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+}
+#pro-skills-h{
+  margin-top: 3rem;
+  margin-left: 40%;
+  font-weight: bold;
+}
+.progress{
+  margin: 1rem 1rem 1rem 1rem ;
+}
+
+@media screen and (max-width: 950px) {
+  #About{
+    flex-direction: column;
+    align-items: center;
+  }
+  #pro-skills-h{
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #profile-img{
+    width: 9rem;
+    height: 9rem;
+  }
+  #header{
+    height: 520px;
+  }
+  .name{
+    font-size: small;
+  }
+}
+@media screen and (max-width: 655px){
+  #information-div{
+    
+    margin-top: 10px;
+    width: 75%;
+  }
+  .obj-info{
+    margin: 0%;
+  }
+  #info-table{
+    text-align: left;
+  }
+}
+@media screen and (max-width: 590px){
+  #header{
+    height: 500px;
+  }
+  .about-titles{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 674px){
+  .nav-link{
+    font-size: 20px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 594px){
+  .nav-link{
+    font-size: 17px;
+    
+  }
+}
+@media screen and (max-width: 440px){
+  .nav-link{
+    font-size: 12px;
+    
+  }
+  #fix-nav{
+    height: 2rem;
+    position: unset;
+  }
+}
+@media screen and (max-width: 851px){
+  #imag-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#Port{
+  
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+#imag-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+}
+.divspo{
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  height: 210px;
+  width: 300px;
+  
+}
+.divspo img{
+  height: 200px;
+  width: 300px;
+
+  margin: 5px;
+}
+.sections-titles{
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.por-section{
+  width: 45%;
+  
+}
+#work-div{
+  text-align: center;
+}
+#Socialmedia{
+  
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  
+}
+.soc-icons{
+  border: none;
+  background-color:rgba(250, 217, 32, 0.966) ;
+  margin: 2px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  
+}
+#cards-div{
+  justify-content: space-around;
+  
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  
+}
+#cards-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+@media screen and (max-width: 807px){
+  #cards-section{
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
